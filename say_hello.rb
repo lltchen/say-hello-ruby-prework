@@ -1,5 +1,3 @@
-def say_hello(name)
-    put "Hello #{name}.upcase!"
+def say_hello(name= "Ruby programmer")
+    puts "Hello #{name}!"
 end
-
-say_hello(cat)
